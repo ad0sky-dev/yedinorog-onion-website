@@ -9,8 +9,8 @@ services:
     ports:
       - 12700:80
     networks:
-      - ctf-net
+      - marketplace-net
     restart: always  
 
 networks:
-  ctf-net: {}
+  marketplace-net: {}
